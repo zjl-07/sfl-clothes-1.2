@@ -20,6 +20,7 @@ export const CollectionItemContainer = styled.div`
     .button {
       opacity: 0.85;
       display: flex;
+      align-items: center;
     }
   }
 `;

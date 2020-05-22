@@ -6,6 +6,7 @@ const buttonStyles = css`
   background-color: ${color.mainColor};
   color: ${color.mainLightColor};
   border: none;
+  align-items: center;
 `;
 
 const invertedButtonStyles = css`
@@ -25,7 +26,7 @@ const googleSignInStyles = css`
   border: 0.05rem solid ${color.redColor};
 `;
 
-const getButtonStyles = props => {
+const getButtonStyles = (props) => {
   if (props.isGoogleSignIn) {
     return googleSignInStyles;
   }
